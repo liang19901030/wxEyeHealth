@@ -1,4 +1,5 @@
-
+import util from '../../utils/util.js'
+import req from '../../utils/service.js'
 
 Page({
   /**
@@ -83,5 +84,20 @@ Page({
       }
       savedIdCard = this.data.idCard
     }
+
+    req.putRequest('basic/patients', {
+      name: savedName,
+      idCard: savedIdCard,
+    }).then(res => {
+      if (res === 'loginSuccess') {
+        this.editDone()
+        return
+      }
+      res.data.returnObject.accessToken = user.accessToken
+      wx.setStorageSync('terryUser', res.data.returnObject)
+      wx.navigateBack({
+        delta: 1
+      })
+    })    
   }
 })
