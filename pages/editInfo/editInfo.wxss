@@ -22,6 +22,7 @@
 }
 
 .input {
+  width: 75%;
   margin-left: 37rpx;
   font-size: 17px;
 }
