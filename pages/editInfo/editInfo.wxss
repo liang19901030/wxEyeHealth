@@ -16,9 +16,18 @@
   height: 38rpx;
 }
 
+.idCard {
+  width: 41rpx;
+  height: 29rpx;
+}
+
 .input {
   margin-left: 37rpx;
   font-size: 17px;
+}
+
+.ph_class {
+  color: #CCCCCC;
 }
 
 .edit_done {
