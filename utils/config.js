@@ -29,6 +29,7 @@ var config = {
 
   url: {
     login: "basic/patients/loginByMiniProgram",
+    editUserInfo: "basic/patients",
 
   }
 }
