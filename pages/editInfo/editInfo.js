@@ -1,5 +1,6 @@
 import util from '../../utils/util.js'
 import req from '../../utils/service.js'
+import config from '../../utils/config.js'
 
 Page({
   /**
@@ -85,7 +86,7 @@ Page({
       savedIdCard = this.data.idCard
     }
 
-    req.putRequest('basic/patients', {
+    req.putRequest(config.url.editUserInfo, {
       name: savedName,
       idCard: savedIdCard,
     }).then(res => {
