@@ -1,0 +1,40 @@
+<view class='container'>
+
+  <view class='section avatar'>
+    <label class='title'>头像</label>
+    <open-data class='img' type='userAvatarUrl'></open-data>
+  </view>
+  <view class='bottom-line'></view>
+
+  <view class='section' bindtap='nameTap'>
+    <label class='title'>姓名</label>
+    <label class='value'>{{userInfo.name}}</label>
+    <image class='arrow' src='../../img/left_arrow.png'></image>
+  </view>
+  <view class='bottom-line'></view>
+
+  <view class='section' bindtap='idCardTap'>
+    <label class='title'>身份证号</label>
+    <label class='value'>{{userInfo.idCard}}</label>
+    <image class='arrow' src='../../img/left_arrow.png'></image>
+  </view>
+  <view class='bottom-line'></view>
+
+  <view class='section'>
+    <label class='title'>手机号</label>
+    <label class='value'>{{userInfo.teleno}}</label>
+  </view>
+  <view class='bottom-line'></view>
+
+  <view class='section'>
+    <label class='title'>年龄</label>
+    <label class='value'>{{userInfo.age}}</label>
+  </view>
+  <view class='bottom-line'></view>
+
+  <view class='section'>
+    <label class='title'>性别</label>
+    <label class='value'>{{userInfo.sex}}</label>
+  </view>
+
+</view>

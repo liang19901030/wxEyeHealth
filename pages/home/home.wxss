@@ -1,0 +1,135 @@
+page {
+  display: block;
+  min-height: 100%;
+  background-color: #f4f4f4;
+}
+
+.container {
+  padding: 0rem;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-top: 20rpx; 
+}
+
+.header {
+  width: 100%;
+  margin-top: 0rpx;
+  justify-content: center; 
+}
+
+.info {
+  float: left;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.img {
+  overflow: hidden;
+  display: block;
+  width: 114rpx;
+  height: 114rpx;
+  border-radius: 58rpx;
+}
+
+.arrow {
+  position: fixed;
+  width: 14rpx;
+  height: 26rpx;
+  right: 20rpx;
+}
+
+.userName {
+  width: 100%;
+  text-align: center;
+  color: #191919;
+  font-size: 34rpx;
+}
+
+.userTeleno {
+  width: 100%;
+  text-align: center;
+  color: #808080;
+  font-size: 34rpx;
+}
+
+.choose {
+  background-color: #f4f4f4;
+}
+
+.myOrder {
+  width: 50%;
+  justify-content: center;
+  background-color: white;
+}
+
+.myFamily {
+  width: 50%;
+  justify-content: center;
+  background-color: white;
+}
+
+.line {
+  float: left;
+  width: 1px;
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+}
+
+.order-img {
+  width: 54rpx;
+  height: 52rpx;
+  margin-top: 36rpx;
+}
+
+.family-img {
+  width: 54rpx;
+  height: 52rpx;
+  margin-top: 36rpx;
+}
+
+.title {
+  text-align: center;
+  color: #353535;
+  font-size: 13px;
+  margin-top: 27rpx;
+  margin-bottom: 21rpx;
+}
+
+.report-img {
+  width: 28rpx;
+  height: 33rpx;
+  margin-top: 39rpx;
+  margin-bottom: 40rpx;
+  margin-left: 33rpx;
+}
+
+.report-text {
+  color: #000000;
+  font-size: 17px;
+  margin-left: 23rpx;
+}
+
+.order-btn {
+  margin-top: 60rpx;
+  width: calc(100% - 60rpx);
+  color: #FFFFFF;
+  background-color: #0487EF;
+}

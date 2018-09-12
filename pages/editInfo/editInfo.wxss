@@ -1,0 +1,29 @@
+.container {
+  padding: 0rem;
+}
+
+.section {
+  width: calc(100% - 30px);
+  height: 80rpx;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px #0487EF solid;
+}
+
+.name {
+  width: 36rpx;
+  height: 38rpx;
+}
+
+.input {
+  margin-left: 37rpx;
+  font-size: 17px;
+}
+
+.edit_done {
+  color: #0487EF;
+  font-size: 17px;
+  right: 15px;
+  position: fixed;
+}

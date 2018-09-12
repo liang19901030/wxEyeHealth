@@ -1,0 +1,5 @@
+<view class= "register">
+<view class= "section">
+<image class='icon' src='resource/account.png'></image>
+</view>
+</view>

@@ -1,0 +1,11 @@
+.section {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+  float: left;
+  margin-left: 30px;
+}

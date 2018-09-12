@@ -1,0 +1,41 @@
+<view class='container'>
+
+  <view class='section header' bindtap='infoTap'>
+    <view class='info'>
+      <view class='avatar'>
+        <open-data class='img' type='userAvatarUrl'></open-data>
+      </view>
+      <view class='userName'>
+        {{userName}}
+      </view>
+      <view class='userTeleno'>
+        {{userTeleno}}
+      </view>
+    </view>
+    <image class='arrow' src='../../img/left_arrow.png'></image>
+  </view>
+
+  <view class='section choose'>
+    <view class='myOrder'>
+      <view class='img-box'>
+        <image class='order-img' src='../../img/order_icon.png'></image>
+      </view>
+      <view class='title'>我的预约</view>
+    </view>
+    <view class='line'></view>
+    <view class='myFamily'>
+      <view class='img-box'>
+        <image class='family-img' src='../../img/family_icon.png'></image>
+      </view>
+      <view class='title'>我的家庭</view>
+    </view>
+  </view>
+
+  <view class='section'>
+    <image class='report-img' src='../../img/report_icon.png'></image>
+    <text class='report-text'>报告信息查看</text>
+    <image class='arrow' src='../../img/left_arrow.png'></image>
+  </view>
+
+  <button class='order-btn'>预约挂号</button>
+</view>

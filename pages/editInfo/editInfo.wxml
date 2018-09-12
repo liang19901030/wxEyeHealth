@@ -1,0 +1,12 @@
+<view class='container'>
+  <view class='section' wx:if="{{editType == 0}}">
+    <image class='name' src='../../img/name.png'></image>
+    <input class='input' placeholder='您的姓名'></input>
+    <view class='edit_done'>完成</view>
+  </view>
+  <view class='section' wx:else>
+    <image class='idCard' src='../../img/idNumber.png'></image>
+    <input class='input' placeholder='您的身份证号'></input>
+    <view class='edit_done'>完成</view>
+  </view>
+</view>
