@@ -40,9 +40,8 @@
         </view>
       </view>
     </scroll-view>
-
-    <view class='add-member'>
-      <button class='add-member-btn'>添加家庭成员</button>
-    </view>
+  </view>
+  <view class='add-member' wx:if="{{myFamilyList.length > 0}}">
+    <button class='add-member-btn'>添加家庭成员</button>
   </view>
 </view>
