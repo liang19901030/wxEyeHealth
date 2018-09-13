@@ -5,10 +5,36 @@ label {
   text-overflow: ellipsis;
 }
 
-
-
 .container {
   display: flex;
+}
+
+.no_members {
+   display: block;
+   align-items: center;
+}
+
+.no_members_img {
+  margin-top: 200rpx;
+  width: 514rpx;
+  height: 285rpx;
+}
+
+.no_members_lab{
+  color: #808080;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 47rpx;
+}
+
+.no_members_btn {
+  color: #FFFFFF;
+  background-color: #0487EF;
+  font-size: 17px;
+  margin-top: 142rpx;
+  width: 320rpx;
+  height: 88rpx;
+  border-radius: 44rpx;
 }
 
 .myFamily-scroll {

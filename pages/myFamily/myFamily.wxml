@@ -1,10 +1,13 @@
 <!--pages/myFamily/myFamily.wxml-->
 
 <view class='container'>
-  <view wx:if="{{myFamilyList.length == 0}}">
-    没家庭成员
+  <view class='no_members' wx:if="{{myFamilyList.length == 0}}">
+    <image class='no_members_img' src='../../img/no-family.png'></image>
+    <view class='no_members_lab'>
+      您还没有添加家庭成员哦!
+    </view>
+    <button class='no_members_btn'>添加家庭成员</button>
   </view>
-
 
   <view wx:if="{{myFamilyList.length > 0}}">
     <scroll-view class='myFamily-scroll' style='height:{{scroll_height}}px' scroll-y>
