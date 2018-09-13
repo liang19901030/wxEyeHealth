@@ -64,10 +64,7 @@ Page({
     var windowWidth = app.globalData.windowWidth
     this.setData({
       scroll_height: windowHeight - windowWidth / 750 * 100,
-    })
-    console.log('---windowHeight--' + windowHeight)
-    console.log('-----' + this.data.scroll_height)
-  
+    })  
   },
 
   /**
