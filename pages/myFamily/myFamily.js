@@ -1,10 +1,14 @@
 // pages/myFamily/myFamily.js
+
+const app = getApp()
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    scroll_height: 0,
     myFamilyList:[
       {
         name:'liang',
@@ -56,6 +60,13 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
+    var windowHeight = app.globalData.windowHeight
+    var windowWidth = app.globalData.windowWidth
+    this.setData({
+      scroll_height: windowHeight - windowWidth / 750 * 100,
+    })
+    console.log('---windowHeight--' + windowHeight)
+    console.log('-----' + this.data.scroll_height)
   
   },
 

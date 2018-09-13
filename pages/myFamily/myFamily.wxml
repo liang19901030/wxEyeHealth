@@ -1,7 +1,7 @@
 <!--pages/myFamily/myFamily.wxml-->
 
 <view class='container'>
-  <scroll-view class='myFamily-scroll' scroll-y>
+  <scroll-view class='myFamily-scroll' style='height:{{scroll_height}}px' scroll-y>
     <view class='myFamily-list' wx:for="{{myFamilyList}}" wx:for-item="member">
       <view class='basicInfo'>
         <view class='name'>
