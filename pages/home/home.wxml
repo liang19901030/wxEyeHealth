@@ -16,14 +16,14 @@
   </view>
 
   <view class='section choose'>
-    <view class='myOrder'>
+    <view class='myOrder' bindtap='myOrderTap'>
       <view class='img-box'>
         <image class='order-img' src='../../img/order_icon.png'></image>
       </view>
       <view class='title'>我的预约</view>
     </view>
     <view class='line'></view>
-    <view class='myFamily'>
+    <view class='myFamily' bindtap='myFamilyTap'>
       <view class='img-box'>
         <image class='family-img' src='../../img/family_icon.png'></image>
       </view>

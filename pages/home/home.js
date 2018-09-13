@@ -56,6 +56,19 @@ Page({
     wx.navigateTo({
       url: '../basicInfo/basicInfo',
     })
+  },
 
+  //我的预约
+  myOrderTap: function() {
+    wx.navigateTo({
+      url: '../myOrder/myOrder',
+    })
+  },
+
+  //我的家庭
+  myFamilyTap: function () {
+    wx.navigateTo({
+      url: '../myFamily/myFamily',
+    })
   }
 })
