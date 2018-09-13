@@ -85,7 +85,7 @@ label {
 
 .idCard {
   display: flex;
-  margin-top: 32rpx;
+  margin-top: 20rpx;
   align-items: center;
 }
 
