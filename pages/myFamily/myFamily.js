@@ -10,7 +10,41 @@ Page({
   data: {
     scroll_height: 0,
     myFamilyList:[
-      
+      {
+        name: 'liang',
+        sex: 0,
+        age: '25岁',
+        teleno: '15202563256',
+        idCard: '410101022020145563',
+      },
+      {
+        name: 'liangdsfafasfafasfafsfsfa',
+        sex: 1,
+        age: '25岁',
+        teleno: '15202563256',
+        idCard: '410101022020145563',
+      },
+      {
+        name: 'liang',
+        sex: 0,
+        age: '25岁',
+        teleno: '15202563256',
+        idCard: '410101022020145563',
+      },
+      {
+        name: 'liang',
+        sex: 0,
+        age: '25岁',
+        teleno: '15202563256',
+        idCard: '410101022020145563',
+      },
+      {
+        name: 'liang',
+        sex: 1,
+        age: '25岁',
+        teleno: '15202563256',
+        idCard: '410101022020145563',
+      }
     ]
   
   },
