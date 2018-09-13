@@ -94,3 +94,13 @@ label {
   height: 20rpx;
   margin-left: 45rpx;
 }
+
+.delete {
+  height: 100%;
+  float: right;
+}
+
+.delete-img {
+  width: 36rpx;
+  height: 36rpx;
+}

@@ -25,7 +25,10 @@
           <label class='number_label'>{{member.idCard}}</label>
         </view> 
       </view>      
-       
+
+      <view class='delete'>
+        <image class='delete-img' src='../../img/delete_icon.png'></image> 
+      </view>
     </view>
   </scroll-view>
 </view>
