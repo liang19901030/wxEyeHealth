@@ -3,6 +3,7 @@
 <view class='container'>
   <scroll-view class='myFamily-scroll' style='height:{{scroll_height}}px' scroll-y>
     <view class='myFamily-list' wx:for="{{myFamilyList}}" wx:for-item="member">
+
       <view class='basicInfo'>
         <view class='name'>
           <label>{{member.name}}</label>
@@ -11,9 +12,19 @@
           </view>
         </view>        
         <label class='age'>{{member.age}}</label>
-        <view class='line'></view>
+        <label class='line'></label>
       </view>
-           
+
+      <view class='number'>
+        <view class='phone'>
+          <image class='phoneIcon' src='../../img/teleno_small.png'></image>
+          <label class='number_label'>{{member.teleno}}</label>
+        </view>        
+        <view class='idCard'>
+          <image class='idCardIcon' src='../../img/idNumber_small.png'></image>
+          <label class='number_label'>{{member.idCard}}</label>
+        </view> 
+      </view>      
        
     </view>
   </scroll-view>

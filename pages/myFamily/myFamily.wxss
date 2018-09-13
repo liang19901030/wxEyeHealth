@@ -53,3 +53,44 @@ label {
   color: #4D4D4D;
   font-size: 13px;
 }
+
+.line {
+  width: 1px;
+  height: 34px;
+  background-color: #dbdbdb;
+}
+
+.number {
+  display: block;
+  width: 50%;
+}
+
+.phone {
+  display: flex;
+  margin-top: 20rpx;
+  align-items: center;
+}
+
+.phoneIcon {
+  width: 24rpx;
+  height: 24rpx;
+  margin-left: 45rpx;
+}
+
+.number_label {
+  color: #4D4D4D;
+  font-size: 13px;
+  margin-left: 20rpx;
+}
+
+.idCard {
+  display: flex;
+  margin-top: 32rpx;
+  align-items: center;
+}
+
+.idCardIcon {
+  width: 28rpx;
+  height: 20rpx;
+  margin-left: 45rpx;
+}
