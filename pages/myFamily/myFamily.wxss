@@ -145,4 +145,5 @@ label {
   background-color: #0487EF;
   font-size: 18px;
   border-radius: 0;
+  height: 100%;
 }
