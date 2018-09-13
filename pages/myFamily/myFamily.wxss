@@ -5,6 +5,8 @@ label {
   text-overflow: ellipsis;
 }
 
+
+
 .container {
   display: flex;
 }
@@ -103,4 +105,16 @@ label {
 .delete-img {
   width: 36rpx;
   height: 36rpx;
+}
+
+.add-member {
+  width: 100%;
+  height: 98rpx;
+}
+
+.add-member-btn {
+  color: #FFFFFF;
+  background-color: #0487EF;
+  font-size: 18px;
+  border-radius: 0;
 }
