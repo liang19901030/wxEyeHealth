@@ -134,6 +134,8 @@ label {
 }
 
 .add-member {
+  position: fixed;
+  bottom: 0px;
   width: 100%;
   height: 98rpx;
 }
