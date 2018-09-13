@@ -1,1 +1,31 @@
 /* pages/myFamily/myFamily.wxss */
+
+.container {
+  display: flex;
+}
+
+.myFamily-scroll {
+  background-color: #f4f4f4;
+}
+
+.myFamily-list {
+  display: flex;
+  margin-top: 20rpx;
+  width: 100%;
+  height: 120rpx;
+  background-color: white;
+  justify-content: center;
+}
+
+.basicInfo {
+  display: flex;
+}
+
+.number {
+  display: flex;
+}
+
+.sex {
+  width: 26rpx;
+  height: 26rpx;
+}

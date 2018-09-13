@@ -1,2 +1,29 @@
 <!--pages/myFamily/myFamily.wxml-->
-<text>pages/myFamily/myFamily.wxml</text>
+
+<view class='container'>
+  <scroll-view class='myFamily-scroll' scroll-y>
+    <view class='myFamily-list' wx:for="{{myFamilyList}}" wx:for-item="member">
+      <view class='basicInfo'>
+        <label class='name'>{{member.name}}</label>
+
+        <view wx:if="{{member.sex == 0}}">
+          <image class='sex' src='../../img/male_icon.png'></image>
+        </view>
+        <view wx:else>
+          <image class='sex' src='../../img/female_icon.png'></image>
+        </view>
+
+        <label class='age'>{{member.age}}</label>
+        <view class='line'></view>
+      </view>
+           
+      <view class='number'>        
+        <image class='phoneIcon' row='0' src='../../img/teleno_small.png'></image>
+        <label class='phone'>{{member.teleno}}</label>
+        <image class='idCardIcon' src='../../img/idNumber_small.png'></image>
+        <label class='idCard'>{{member.idCard}}</label>
+        <image class='delete' src='../../img/delete_icon.png'></image>
+      </view>  
+    </view>
+  </scroll-view>
+</view>
