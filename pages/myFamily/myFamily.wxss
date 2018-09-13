@@ -1,5 +1,10 @@
 /* pages/myFamily/myFamily.wxss */
 
+label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .container {
   display: flex;
 }
@@ -19,7 +24,8 @@
 
 .basicInfo {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  width: 45%;
 }
 
 .number {
@@ -27,9 +33,12 @@
 }
 
 .name {
+  display: flex;
   margin-left: 20rpx;
+  width: 200rpx;
   color: #191919;
   font-size: 17px;
+  align-items: center;
 }
 
 .sex {
@@ -39,8 +48,8 @@
 }
 
 .age {
-  left: 234rpx;
-  position: fixed;
+  width: 100rpx;
+  margin-left: 13rpx;
   color: #4D4D4D;
   font-size: 13px;
 }
