@@ -57,7 +57,25 @@
 }
 
 .info {
+  display: block;
   width: 100%;
   height: 100%;
   margin-left: 22rpx;
+}
+
+.name {
+  display: flex;
+  margin-top: 40rpx;
+  align-items: center;
+}
+
+.name-lab {
+  color: #191919;
+  font-size: 17px;
+}
+
+.title-lab {
+  color: #4D4D4D;
+  font-size: 14px;
+  margin-left: 30rpx;
 }

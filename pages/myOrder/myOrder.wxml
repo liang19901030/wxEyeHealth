@@ -16,7 +16,10 @@
       <view class='my-order-list' wx:for="{{myOrderList}}" wx:for-item="order">
         <image class='doctor-header' src='../../img/avater.png'></image>
         <view class='info'>
-          ss
+          <view class='name'>
+            <label class='name-lab'>{{order.name}}</label>
+            <label class='title-lab'>{{order.title}}</label>
+          </view>
         </view>
       </view>
     </scroll-view>
