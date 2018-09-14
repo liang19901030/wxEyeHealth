@@ -9,7 +9,7 @@
     <button class='no_members_btn'>添加家庭成员</button>
   </view>
 
-  <view wx:if="{{myFamilyList.length > 0}}">
+  <view class='my-family-list' wx:if="{{myFamilyList.length > 0}}">
     <scroll-view class='myFamily-scroll' style='height:{{scroll_height}}px' scroll-y>
       <view class='myFamily-list' wx:for="{{myFamilyList}}" wx:for-item="member">
 

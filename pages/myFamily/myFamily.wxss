@@ -37,6 +37,10 @@ label {
   border-radius: 44rpx;
 }
 
+.my-family-list {
+  width: 100%;
+}
+
 .myFamily-scroll {
   background-color: #f4f4f4;
 }
@@ -61,7 +65,7 @@ label {
 }
 
 .select_member {
-  padding-left: 40rpx;
+  margin-left: 20rpx;
 }
 
 .select_member_img {
