@@ -28,7 +28,7 @@ Page({
         idCard: '410101022020145563',
       },
       {
-        isSelected: false,
+        isSelected: true,
         name: 'liang',
         sex: 0,
         age: '25岁',
