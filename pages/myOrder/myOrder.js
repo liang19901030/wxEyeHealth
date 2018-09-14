@@ -5,6 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
+    myOrderList:[
+      {
+        avatar:'',
+        name:'张仲景',
+        title:'主治医师',
+        hospital:'洛阳市第一眼科医院(眼科)',
+        charge:'60元',
+        treatmentDate:'2017-07-11  上午',
+        patient:'闻人轻语'
+      }
+    ],
   
   },
 
