@@ -1,1 +1,34 @@
 /* pages/myOrder/myOrder.wxss */
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #f4f4f4;
+  position: fixed;
+}
+
+.myOrder {
+  display: flex;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 88rpx;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabs-lab {
+  font-size: 15px;
+  text-align: center;
+}
+
+.not-treatment-line {
+  background-color: #0487EF;
+  width: 20rpx;
+  height: 4rpx;
+}

@@ -1,2 +1,13 @@
 <!--pages/myOrder/myOrder.wxml-->
-<text>pages/myOrder/myOrder.wxml</text>
+<view class='container'>
+  <view class='myOrder'>
+    <view class='tabs'>
+      <label class='tabs-lab'>待就诊预约</label>
+      <label class='not-treatment-line'></label>
+    </view>
+    <view class='tabs'>
+      <label class='tabs-lab'>历史预约</label>
+      <label class='history-order-line'></label>
+    </view>
+  </view>
+</view>
