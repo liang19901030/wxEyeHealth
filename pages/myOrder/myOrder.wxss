@@ -86,10 +86,22 @@
   font-size: 15px;
 }
 
+.charge {
+  margin-top: 24rpx;
+  color: #808080;
+  font-size: 15px;
+}
+
+.explain {
+  margin-top: 10rpx;
+  color: #808080;
+  font-size: 11px;
+}
+
 .date {
   color: #808080;
   font-size: 15px;
-  margin-top: 60rpx;
+  margin-top: 28rpx;
 }
 
 .patient {

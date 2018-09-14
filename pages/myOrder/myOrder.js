@@ -7,31 +7,34 @@ Page({
   data: {
     myOrderList:[
       {
-        avatar:'',
-        name:'张仲景',
-        title:'主治医师',
-        hospital:'洛阳市第一眼科医院(眼科)',
-        charge:'60元',
-        treatmentDate:'2017-07-11  上午',
-        patient:'闻人轻语'
+        avatar: '',
+        name: '张仲景',
+        title: '主治医师',
+        hospital: '洛阳市第一眼科医院(眼科)',
+        charge: '费用总计: 60元',
+        explian: '(挂号费￥30.00+服务费￥30.00）',
+        treatmentDate: '就诊时间: 2017-07-11  上午',
+        patient: '就诊人: 闻人轻语'
       },
       {
         avatar: '',
         name: '张仲景',
         title: '主治医师',
         hospital: '洛阳市第一眼科医院(眼科)',
-        charge: '60元',
-        treatmentDate: '2017-07-11  上午',
-        patient: '闻人轻语'
+        charge: '费用总计: 60元',
+        explian: '(挂号费￥30.00+服务费￥30.00）',
+        treatmentDate: '就诊时间: 2017-07-11  上午',
+        patient: '就诊人: 闻人轻语'
       },
       {
         avatar: '',
         name: '张仲景',
         title: '主治医师',
         hospital: '洛阳市第一眼科医院(眼科)',
-        charge: '60元',
-        treatmentDate: '2017-07-11  上午',
-        patient: '闻人轻语'
+        charge: '费用总计: 60元',
+        explian: '(挂号费￥30.00+服务费￥30.00）',
+        treatmentDate: '就诊时间: 2017-07-11  上午',
+        patient: '就诊人: 闻人轻语'
       }
     ],
   

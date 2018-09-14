@@ -23,6 +23,12 @@
           <view class='hospital'>
             {{order.hospital}}
           </view>
+          <view class='charge'>
+            {{order.charge}}
+          </view>
+          <view class='explain'>
+            {{order.explain}}
+          </view>
           <view class='date'>
             {{order.treatmentDate}}
           </view>
