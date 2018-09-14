@@ -61,7 +61,7 @@ label {
 }
 
 .select_member {
-  margin-left: 20rpx;
+  padding-left: 40rpx;
 }
 
 .select_member_img {
