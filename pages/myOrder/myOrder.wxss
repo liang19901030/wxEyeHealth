@@ -88,7 +88,7 @@
   position: fixed;
   right: 0rpx;
   text-align: center;
-  border-radius:26rpx;
+  border-radius:52rpx 0rpx 0rpx 52rpx;
 }
 
 .hospital {
