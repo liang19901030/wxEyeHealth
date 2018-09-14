@@ -55,3 +55,9 @@
   margin-top: 40rpx;
   margin-left: 20rpx;
 }
+
+.info {
+  width: 100%;
+  height: 100%;
+  margin-left: 22rpx;
+}

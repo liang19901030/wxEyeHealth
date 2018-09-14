@@ -15,6 +15,9 @@
     <scroll-view class='my-order-scroll' scroll-y>
       <view class='my-order-list' wx:for="{{myOrderList}}" wx:for-item="order">
         <image class='doctor-header' src='../../img/avater.png'></image>
+        <view class='info'>
+          ss
+        </view>
       </view>
     </scroll-view>
   </view>
