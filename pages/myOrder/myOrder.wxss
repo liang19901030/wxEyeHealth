@@ -3,8 +3,6 @@
 .container {
   width: 100%;
   height: 100%;
-  background-color: #f4f4f4;
-  position: fixed;
 }
 
 .myOrder {
@@ -35,6 +33,12 @@
 
 .my-order-list-container {
   width: 100%;
+}
+
+.my-order-scroll {
+  height: 100%;
+  position: fixed;
+  background-color: #f4f4f4;
 }
 
 .my-order-list {
