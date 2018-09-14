@@ -85,3 +85,15 @@
   color: #808080;
   font-size: 15px;
 }
+
+.date {
+  color: #808080;
+  font-size: 15px;
+  margin-top: 60rpx;
+}
+
+.patient {
+  color: #808080;
+  font-size: 15px;
+  margin-top: 30rpx;
+}
