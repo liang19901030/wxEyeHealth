@@ -14,6 +14,9 @@
       <view class='myFamily-list' wx:for="{{myFamilyList}}" wx:for-item="member">
 
         <view class='basicInfo'>
+          <view class='select_member' wx:if="{{isOrder}}">
+            <image class='select_member_img' src="{{member.isSelected ? '../../img/selected.png' : '../../img/unselected.png'}}"></image>
+          </view>
           <view class='name'>
             <label>{{member.name}}</label>
             <view>
@@ -35,7 +38,7 @@
           </view>
         </view>
 
-        <view class='delete'>
+        <view class='delete' wx:if="{{!isOrder}}">
           <image class='delete-img' src='../../img/delete_icon.png'></image>
         </view>
       </view>

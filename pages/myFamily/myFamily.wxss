@@ -60,6 +60,15 @@ label {
   display: flex;
 }
 
+.select_member {
+  margin-left: 20rpx;
+}
+
+.select_member_img {
+  width: 42rpx;
+  height: 42rpx;
+}
+
 .name {
   display: flex;
   margin-left: 20rpx;

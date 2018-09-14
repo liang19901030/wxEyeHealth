@@ -8,9 +8,11 @@ Page({
    * 页面的初始数据
    */
   data: {
+    isOrder: true,
     scroll_height: 0,
     myFamilyList:[
       {
+        isSelected: false,
         name: 'liang',
         sex: 0,
         age: '25岁',
@@ -18,6 +20,7 @@ Page({
         idCard: '410101022020145563',
       },
       {
+        isSelected: false,
         name: 'liangdsfafasfafasfafsfsfa',
         sex: 1,
         age: '25岁',
@@ -25,6 +28,7 @@ Page({
         idCard: '410101022020145563',
       },
       {
+        isSelected: false,
         name: 'liang',
         sex: 0,
         age: '25岁',
@@ -32,6 +36,7 @@ Page({
         idCard: '410101022020145563',
       },
       {
+        isSelected: false,
         name: 'liang',
         sex: 0,
         age: '25岁',
@@ -39,6 +44,7 @@ Page({
         idCard: '410101022020145563',
       },
       {
+        isSelected: false,
         name: 'liang',
         sex: 1,
         age: '25岁',
