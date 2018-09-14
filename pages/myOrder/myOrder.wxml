@@ -20,6 +20,9 @@
             <label class='name-lab'>{{order.name}}</label>
             <label class='title-lab'>{{order.title}}</label>
           </view>
+          <view class='hospital'>
+            {{order.hospital}}
+          </view>
         </view>
       </view>
     </scroll-view>
