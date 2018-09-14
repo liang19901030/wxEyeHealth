@@ -45,6 +45,13 @@
     </scroll-view>
   </view>
   <view class='add-member' wx:if="{{myFamilyList.length > 0}}">
-    <button class='add-member-btn'>添加家庭成员</button>
+    <view class='order-add-member' wx:if="{{isOrder}}">
+      <button class='member-btn order-add-member-btn'>添加</button>
+      <button class='member-btn order-sure'>确定</button>
+    </view>
+
+    <view wx:if="{{!isOrder}}">
+      <button class='member-btn add-member-btn'>添加家庭成员</button>
+    </view>
   </view>
 </view>

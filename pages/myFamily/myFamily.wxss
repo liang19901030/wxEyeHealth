@@ -5,6 +5,12 @@ label {
   text-overflow: ellipsis;
 }
 
+ 
+ button::after {
+  border-radius: 0rpx;
+  border: none;
+}
+
 .container {
   display: flex;
 }
@@ -153,10 +159,29 @@ label {
   height: 98rpx;
 }
 
-.add-member-btn {
-  color: #FFFFFF;
-  background-color: #0487EF;
+.order-add-member {
+  display: flex;
+}
+
+.member-btn {
   font-size: 18px;
   border-radius: 0;
   height: 100%;
+}
+
+.add-member-btn {
+  color: #FFFFFF;
+  background-color: #0487EF;
+}
+
+.order-add-member-btn {
+  width: 50%;
+  color: #0487EF;
+  background-color: #FFFFFF;
+}
+
+.order-sure {
+  width: 50%;
+  color: #FFFFFF;
+  background-color: #0487EF;
 }
