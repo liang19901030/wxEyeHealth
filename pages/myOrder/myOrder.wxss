@@ -79,6 +79,18 @@
   margin-left: 30rpx;
 }
 
+.time-before-treatment {
+  width: 267rpx;
+  height: 52rpx;
+  color: #FFFFFF;
+  background-color: #E64340;
+  font-size: 26rpx;
+  position: fixed;
+  right: 0rpx;
+  text-align: center;
+  border-radius:26rpx;
+}
+
 .hospital {
   margin-top: 28rpx;
   color: #808080;
