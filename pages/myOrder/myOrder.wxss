@@ -94,6 +94,7 @@
 
 .explain {
   margin-top: 10rpx;
+  margin-left: 160rpx;
   color: #808080;
   font-size: 11px;
 }
