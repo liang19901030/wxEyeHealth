@@ -26,6 +26,10 @@
   text-align: center;
 }
 
+.chosen {
+  color: #0487EF;
+}
+
 .not-treatment-line {
   background-color: #0487EF;
   width: 20rpx;

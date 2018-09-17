@@ -8,6 +8,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    current_tab:0,
     swiper_height:0,
     myOrderList:[
       {
