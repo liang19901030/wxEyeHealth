@@ -11,33 +11,72 @@
     </view>
   </view>
 
-  <view class='my-order-list-container' wx:if="{{myOrderList.length > 0}}">
-    <scroll-view class='my-order-scroll' scroll-y>
-      <view class='my-order-list' wx:for="{{myOrderList}}" wx:for-item="order">
-        <image class='doctor-header' src='../../img/avater.png'></image>
-        <view class='info'>
-          <view class='name'>
-            <label class='name-lab'>{{order.name}}</label>
-            <label class='title-lab'>{{order.title}}</label>
-            <view class='time-before-treatment'>离就诊还有：2 天</view>
+  <swiper style='height:{{swiper_height}}px'>
+    <swiper-item>
+      <!-- 待就诊预约 -->
+      <view class='my-order-list-container' wx:if="{{myOrderList.length > 0}}">
+        <scroll-view class='my-order-scroll' scroll-y>
+          <view class='my-order-list' wx:for="{{myOrderList}}" wx:for-item="order">
+            <image class='doctor-header' src='../../img/avater.png'></image>
+            <view class='info'>
+              <view class='name'>
+                <label class='name-lab'>{{order.name}}</label>
+                <label class='title-lab'>{{order.title}}</label>
+                <view class='time-before-treatment'>离就诊还有：2 天</view>
+              </view>
+              <view class='hospital'>
+                {{order.hospital}}
+              </view>
+              <view class='charge'>
+                {{order.charge}}
+              </view>
+              <view class='explain'>
+                {{order.explain}}
+              </view>
+              <view class='date'>
+                {{order.treatmentDate}}
+              </view>
+              <view class='patient'>
+                {{order.patient}}
+              </view>
+            </view>
           </view>
-          <view class='hospital'>
-            {{order.hospital}}
-          </view>
-          <view class='charge'>
-            {{order.charge}}
-          </view>
-          <view class='explain'>
-            {{order.explain}}
-          </view>
-          <view class='date'>
-            {{order.treatmentDate}}
-          </view>
-          <view class='patient'>
-            {{order.patient}}
-          </view>
-        </view>
+        </scroll-view>
       </view>
-    </scroll-view>
-  </view>
+    </swiper-item>
+
+    <swiper-item>
+      <!-- 待就诊预约 -->
+      <view class='my-order-list-container' wx:if="{{myOrderList.length > 0}}">
+        <scroll-view class='my-order-scroll' scroll-y>
+          <view class='my-order-list' wx:for="{{myOrderList}}" wx:for-item="order">
+            <image class='doctor-header' src='../../img/avater.png'></image>
+            <view class='info'>
+              <view class='name'>
+                <label class='name-lab'>{{order.name}}</label>
+                <label class='title-lab'>{{order.title}}</label>
+                <view class='time-before-treatment'>离就诊还有：2 天</view>
+              </view>
+              <view class='hospital'>
+                {{order.hospital}}
+              </view>
+              <view class='charge'>
+                {{order.charge}}
+              </view>
+              <view class='explain'>
+                {{order.explain}}
+              </view>
+              <view class='date'>
+                {{order.treatmentDate}}
+              </view>
+              <view class='patient'>
+                {{order.patient}}
+              </view>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+    </swiper-item>
+  </swiper>
+
 </view>

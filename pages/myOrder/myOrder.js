@@ -1,10 +1,14 @@
 // pages/myOrder/myOrder.js
+
+const app = getApp()
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    swiper_height:0,
     myOrderList:[
       {
         avatar: '',
@@ -51,7 +55,11 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-  
+    var windowHeight = app.globalData.windowHeight
+    var windowWidth = app.globalData.windowWidth
+    this.setData({
+      swiper_height: windowHeight - windowWidth / 750 * 90,
+    }) 
   },
 
   /**
