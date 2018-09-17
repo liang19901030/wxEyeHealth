@@ -55,7 +55,7 @@
               <view class='name'>
                 <label class='name-lab'>{{order.name}}</label>
                 <label class='title-lab'>{{order.title}}</label>
-                <view class='time-before-treatment'>离就诊还有：2 天</view>
+                <view class='status'>已就诊</view>
               </view>
               <view class='hospital'>
                 {{order.hospital}}

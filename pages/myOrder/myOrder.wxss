@@ -122,3 +122,15 @@
   margin-top: 30rpx;
   margin-bottom: 40rpx;
 }
+
+.status {
+  width: 124rpx;
+  height: 52rpx;
+  float: right;
+  font-size: 26rpx;
+  text-align: center;
+  color: #FFFFFF;
+  background: #cccccc;
+  padding-top: 15rpx;
+  border-radius: 52rpx 0rpx 0rpx 52rpx;
+}
