@@ -8,7 +8,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    current_tab:0,
+    current_tab:1,
     swiper_height:0,
     myOrderList:[
       {
@@ -44,6 +44,15 @@ Page({
     ],
   
   },
+
+  treatmentTap: function() {
+
+  },
+
+  historyTap: function () {
+
+  },
+
 
   /**
    * 生命周期函数--监听页面加载

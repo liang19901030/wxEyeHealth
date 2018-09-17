@@ -1,17 +1,17 @@
 <!--pages/myOrder/myOrder.wxml-->
 <view class='container'>
   <view class='myOrder'>
-    <view class='tabs'>
+    <view class='tabs' bindtap='treatmentTap'>
       <label class="tabs-lab {{current_tab == 0 ? 'chosen' : ''}}">待就诊预约</label>
       <label class='not-treatment-line'></label>
     </view>
-    <view class='tabs'>
+    <view class='tabs' bindtap='historyTap'>
       <label class="tabs-lab {{current_tab == 1 ? 'chosen' : ''}}">历史预约</label>
       <label class='history-order-line'></label>
     </view>
   </view>
 
-  <swiper style='height:{{swiper_height}}px'>
+  <swiper current='{{current_tab}}' style='height:{{swiper_height}}px'>
     <swiper-item>
       <!-- 待就诊预约 -->
       <view class='my-order-list-container' wx:if="{{myOrderList.length > 0}}">
