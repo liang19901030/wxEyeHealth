@@ -66,9 +66,16 @@ Page({
   },
 
   //我的家庭
-  myFamilyTap: function () {
+  myFamilyTap: function() {
     wx.navigateTo({
       url: '../myFamily/myFamily',
+    })
+  },
+
+  //报告信息
+  reportTap: function() {
+    wx.navigateTo({
+      url: '../report/report',
     })
   }
 })

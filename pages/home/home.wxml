@@ -31,7 +31,7 @@
     </view>
   </view>
 
-  <view class='section'>
+  <view class='section' bindtap='reportTap'>
     <image class='report-img' src='../../img/report_icon.png'></image>
     <text class='report-text'>报告信息查看</text>
     <image class='arrow' src='../../img/left_arrow.png'></image>
