@@ -8,7 +8,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    current_tab:1,
+    current_tab:0,
     swiper_height:0,
     myOrderList:[
       {
@@ -45,14 +45,16 @@ Page({
   
   },
 
-  treatmentTap: function() {
-
+  tabChange: function(e) {
+    var that = this
+    if (that.data.current_tab === e.target.dataset.current) {
+      return false
+    }else {
+      that.setData({
+        current_tab: e.target.dataset.current
+      })
+    }
   },
-
-  historyTap: function () {
-
-  },
-
 
   /**
    * 生命周期函数--监听页面加载

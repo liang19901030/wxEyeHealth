@@ -1,11 +1,11 @@
 <!--pages/myOrder/myOrder.wxml-->
 <view class='container'>
   <view class='myOrder'>
-    <view class='tabs' bindtap='treatmentTap'>
+    <view class='tabs' data-current='0' bindtap='tabChange'>
       <label class="tabs-lab {{current_tab == 0 ? 'chosen' : ''}}">待就诊预约</label>
       <label class='not-treatment-line'></label>
     </view>
-    <view class='tabs' bindtap='historyTap'>
+    <view class='tabs' data-current='1' bindtap='tabChange'>
       <label class="tabs-lab {{current_tab == 1 ? 'chosen' : ''}}">历史预约</label>
       <label class='history-order-line'></label>
     </view>
