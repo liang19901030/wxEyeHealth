@@ -63,7 +63,6 @@
 }
 
 .name {
-  display: flex;
   margin-top: 40rpx;
   align-items: center;
 }
