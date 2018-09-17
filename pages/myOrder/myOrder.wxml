@@ -11,7 +11,7 @@
     </view>
   </view>
 
-  <swiper current='{{current_tab}}' style='height:{{swiper_height}}px'>
+  <swiper current='{{current_tab}}' style='height:{{swiper_height}}px' bindchange='swiperBindChange'>
     <swiper-item>
       <!-- 待就诊预约 -->
       <view class='my-order-list-container' wx:if="{{myOrderList.length > 0}}">
