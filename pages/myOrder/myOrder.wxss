@@ -30,7 +30,7 @@
   color: #0487EF;
 }
 
-.not-treatment-line {
+.chosen-line {
   background-color: #0487EF;
   width: 20rpx;
   height: 4rpx;

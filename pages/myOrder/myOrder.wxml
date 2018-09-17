@@ -3,11 +3,11 @@
   <view class='myOrder'>
     <view class='tabs' data-current='0' bindtap='tabChange'>
       <label class="tabs-lab {{current_tab == 0 ? 'chosen' : ''}}" data-current='0'>待就诊预约</label>
-      <label class='not-treatment-line'></label>
+      <label class="{{current_tab == 0 ? 'chosen-line' : ''}}"></label>
     </view>
     <view class='tabs' data-current='1' bindtap='tabChange'>
       <label class="tabs-lab {{current_tab == 1 ? 'chosen' : ''}}" data-current='1'>历史预约</label>
-      <label class='history-order-line'></label>
+      <label class="{{current_tab == 1 ? 'chosen-line' : ''}}"></label>
     </view>
   </view>
 
