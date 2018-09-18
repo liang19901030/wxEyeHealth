@@ -47,10 +47,11 @@ page {
 
 .name {
   display: flex;
-  
   width: 200rpx;
+  height: 28rpx;
+  margin-top: 20rpx;
   color: #1A1A1A;
-  font-size: 15px;
+  font-size: 30rpx;
   align-items: center;
 }
 

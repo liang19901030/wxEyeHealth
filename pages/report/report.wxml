@@ -8,12 +8,12 @@
           <image class='cover' src='../../img/avater.png'></image>
           <view class='basic-info'>
             <view class='name'>
-              <label>{{name}}</label>
+              <label>{{report.name}}</label>
               <view>
-                <image class='sex' src="{{member.sex == 0 ? '../../img/male_icon.png' : '../../img/female_icon.png'}}"></image>
+                <image class='sex' src="{{report.sex == 0 ? '../../img/male_icon.png' : '../../img/female_icon.png'}}"></image>
               </view>
             </view>
-            <label class='age'>{{age}}</label>
+            <label class='age'>{{report.age}}</label>
           </view>
         </view>
         <view class='report-info'></view>
