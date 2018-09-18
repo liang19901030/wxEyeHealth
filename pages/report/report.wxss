@@ -76,8 +76,6 @@ label {
 
 .description {
   display: flex;
-  width: 524rpx;
-  height: 80rpx;
   margin-top: 15rpx;
   color: #1A1A1A;
   font-size: 26rpx;
