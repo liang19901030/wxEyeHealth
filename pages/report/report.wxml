@@ -4,7 +4,9 @@
   <view class='report-container' wx:if="{{reportList.legth > 0}}">
     <scroll-view class='report-list-scroll'>
       <view class='report-list' wx:for="{{reportList}}" wx:for-item='report'>
-        <view class='patient-info'></view>
+        <view class='patient-info'>
+          <image class='cover' src='../../img/avater.png'></image>
+        </view>
         <view class='report-info'></view>
       </view>
     </scroll-view>
