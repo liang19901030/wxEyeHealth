@@ -1,6 +1,13 @@
 <!--pages/report/report.wxml-->
 
 <view class='container'>
+  <view class='no_reports' wx:if="{{reportList.length == 0}}">
+    <image class='no_reports_img' src='../../img/no-report.png'></image>
+    <view class='no_reports_lab'>
+      您还没有报告信息哦!
+    </view>
+  </view>
+
   <view class='report-container' wx:if="{{reportList.length > 0}}">
     <scroll-view class='report-list-scroll'>
       <view class='report-list' wx:for="{{reportList}}" wx:for-item='report'>

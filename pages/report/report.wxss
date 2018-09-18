@@ -10,6 +10,24 @@ label {
   text-overflow: ellipsis;
 }
 
+.no_reports {
+   display: block;
+   align-items: center;
+}
+
+.no_reports_img {
+  margin-top: 200rpx;
+  width: 514rpx;
+  height: 285rpx;
+}
+
+.no_reports_lab{
+  color: #808080;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 47rpx;
+}
+
 .report-container {
   width: 100%;
 }
