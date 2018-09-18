@@ -21,7 +21,47 @@ page {
   background-color: #FFFEFF;
 }
 
+.patient-info {
+  width: 100%;
+  height: 144rpx;
+}
+
+.report-info {
+  width: 100%;
+  height: 58rpx;
+}
+
 .cover {
   width: 124rpx;
   height: 124rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+
+.basic-info {
+  display: flex;
+  width: 100%;
+  margin-left: 20rpx;
+}
+
+.name {
+  display: flex;
+  
+  width: 200rpx;
+  color: #1A1A1A;
+  font-size: 15px;
+  align-items: center;
+}
+
+.sex {
+  width: 26rpx;
+  height: 26rpx;
+  margin-left: 10rpx;
+}
+
+.age {
+  color: #4D4D4D;
+  font-size: 26rpx;
+  margin-right: 20rpx;
+  float: right;
 }
