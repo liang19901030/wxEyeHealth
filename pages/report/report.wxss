@@ -85,3 +85,10 @@ label {
   width: 524rpx;
   height: 68rpx;
 }
+
+.line {
+  width: 536rpx;
+  height: 1rpx;
+  margin-top: 10rpx;
+  background-color: #DBDBDB;
+}

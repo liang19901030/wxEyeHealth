@@ -19,6 +19,8 @@
               <label class='description-lab'>{{report.description}}</label>
             </view>
 
+            <view class='line'></view>
+
           </view>
 
         </view>
