@@ -96,6 +96,10 @@ label {
 .report-type {
   margin-left: 20rpx;
   color: #0487EF;
+  border-color: #0487EF;
+  border-width: 1rpx;
+  border-style: solid;
+  border-radius: 5rpx;
   font-size: 24rpx;
 }
 
