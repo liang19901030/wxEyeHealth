@@ -11,9 +11,7 @@
 
             <view class='name'>
               <label>{{report.name}}</label>
-              <view>
-                <image class='sex' src="{{report.sex == 0 ? '../../img/male_icon.png' : '../../img/female_icon.png'}}"></image>
-              </view>
+              <image class='sex' src="{{report.sex == 0 ? '../../img/male_icon.png' : '../../img/female_icon.png'}}"></image>
               <label class='age'>{{report.age}}</label>
             </view>
 

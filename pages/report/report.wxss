@@ -54,7 +54,6 @@ label {
 }
 
 .name {
-  display: flex;
   margin-top: 20rpx;
   color: #1A1A1A;
   font-size: 30rpx;
