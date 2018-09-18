@@ -43,15 +43,12 @@ page {
 }
 
 .basic-info {
-  display: flex;
+  display: block;
   width: 100%;
   margin-left: 20rpx;
 }
 
 .name {
-  display: flex;
-  width: 200rpx;
-  height: 28rpx;
   margin-top: 20rpx;
   color: #1A1A1A;
   font-size: 30rpx;
@@ -69,4 +66,9 @@ page {
   font-size: 26rpx;
   margin-right: 20rpx;
   float: right;
+}
+
+.description {
+  color: #1A1A1A;
+  font-size: 26rpx;
 }

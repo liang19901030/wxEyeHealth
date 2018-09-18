@@ -6,15 +6,23 @@
       <view class='report-list' wx:for="{{reportList}}" wx:for-item='report'>
         <view class='patient-info'>
           <image class='cover' src='../../img/avater.png'></image>
+
           <view class='basic-info'>
+
             <view class='name'>
               <label>{{report.name}}</label>
               <view>
                 <image class='sex' src="{{report.sex == 0 ? '../../img/male_icon.png' : '../../img/female_icon.png'}}"></image>
               </view>
+              <label class='age'>{{report.age}}</label>
             </view>
-            <label class='age'>{{report.age}}</label>
+
+            <view class='description'>
+              {{report.description}}
+            </view>
+
           </view>
+
         </view>
         <view class='report-info'></view>
       </view>
