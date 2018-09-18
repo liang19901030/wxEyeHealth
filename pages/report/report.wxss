@@ -18,9 +18,8 @@ page {
 .report-list {
   margin-top: 10rpx;
   margin-left: 20rpx;
-  margin-right: 20rpx;
   border-radius: 10rpx;
-  width: 100%;
+  width: calc(100% - 40rpx);
   height: 202rpx;
   background-color: #FFFEFF;
 }
