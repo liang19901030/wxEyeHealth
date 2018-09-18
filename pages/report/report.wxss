@@ -75,7 +75,7 @@ label {
 
 .description {
   display: flex;
-  margin-top: 15rpx;
+  margin-top: 5rpx;
   color: #1A1A1A;
   font-size: 26rpx;
   align-items: center;
@@ -83,5 +83,5 @@ label {
 
 .description-lab {
   width: 524rpx;
-  height: 80rpx;
+  height: 68rpx;
 }
