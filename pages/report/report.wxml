@@ -24,7 +24,11 @@
           </view>
 
         </view>
-        <view class='report-info'></view>
+        <view class='report-info'>
+          <label class='report-type'>{{report.reportType}}</label>
+          <label class='report-doctor'>{{report.reportDoctor}}</label>
+          <label class='report-date'>{{report.date}}</label>
+        </view>
       </view>
     </scroll-view>
   </view>
