@@ -18,7 +18,7 @@
             </view>
 
             <view class='description'>
-              {{report.description}}
+              <label>{{report.description}}</label>
             </view>
 
           </view>

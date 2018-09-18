@@ -5,6 +5,11 @@ page {
   height: 100%;
 }
 
+label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .report-container {
   width: 100%;
 }
@@ -69,6 +74,8 @@ page {
 }
 
 .description {
+  width: 524rpx;
+  height: 60rpx;
   color: #1A1A1A;
   font-size: 26rpx;
 }
