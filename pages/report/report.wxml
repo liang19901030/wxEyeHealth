@@ -1,7 +1,7 @@
 <!--pages/report/report.wxml-->
 
 <view class='container'>
-  <view class='report-container' wx:if="{{reportList.legth > 0}}">
+  <view class='report-container' wx:if="{{reportList.length > 0}}">
     <scroll-view class='report-list-scroll'>
       <view class='report-list' wx:for="{{reportList}}" wx:for-item='report'>
         <view class='patient-info'>
