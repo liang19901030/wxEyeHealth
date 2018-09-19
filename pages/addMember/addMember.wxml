@@ -28,4 +28,10 @@
   </view>
   <view class='bottom-line'></view>
 
+  <view class='statement'>
+    <label class='mark'>*</label>
+    <label class='statement-text'>请务必保持身份证号的真实性和准确性，以便系统正确计算您的年龄、性别，以获得更好的医疗体验。</label>
+  </view>
+  
+  <button class='done-btn'>完成</button>
 </view>

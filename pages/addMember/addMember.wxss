@@ -75,3 +75,26 @@ page {
   margin-top: 40rpx;
   color: #0487EF;
 }
+
+.statement {
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.mark {
+  color: #E60012;
+  font-size: 24rpx;
+}
+
+.statement-text {
+  color: #808080;
+  font-size: 24rpx;
+}
+
+.done-btn {
+  margin-top: 40rpx;
+  width: calc(100% - 60rpx);
+  color: #FFFFFF;
+  background-color: #0487EF;
+}
