@@ -53,6 +53,10 @@ page {
   height: 29rpx;
 }
 
+.teleno-view {
+  display: block;
+}
+
 .teleno {
   width: 32rpx;
   height: 40rpx;
@@ -61,4 +65,9 @@ page {
 .code {
   width: 34rpx;
   height: 39rpx;
+}
+
+.request-code {
+  color: #0487EF;
+  float: right;
 }

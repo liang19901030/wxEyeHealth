@@ -15,9 +15,10 @@
   </view>
   <view class='bottom-line'></view>
 
-  <view class='section'>
+  <view class='section teleno-view'>
     <image class='img teleno' src='../../img/teleno.png'></image>
     <input class='value-input' placeholder='您的手机号' placeholder-class='phcolor' auto-focus></input>
+    <label class='request-code'>获取验证码</label>
   </view>
   <view class='bottom-line'></view>
 
