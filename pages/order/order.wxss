@@ -51,7 +51,6 @@ page {
 }
 
 .select-member {
-  height: 100%;
   color: #1A1A1A;
   font-size: 30rpx;
   margin-left: 20rpx;
