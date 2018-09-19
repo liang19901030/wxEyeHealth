@@ -77,5 +77,12 @@ Page({
     wx.navigateTo({
       url: '../report/report',
     })
-  }
+  },
+
+  //预约挂号
+  orderTap: function () {
+    wx.navigateTo({
+      url: '../order/order',
+    })
+  },
 })

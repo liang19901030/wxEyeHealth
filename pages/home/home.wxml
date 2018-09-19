@@ -37,5 +37,5 @@
     <image class='arrow' src='../../img/left_arrow.png'></image>
   </view>
 
-  <button class='order-btn'>预约挂号</button>
+  <button class='order-btn' bindtap='orderTap'>预约挂号</button>
 </view>

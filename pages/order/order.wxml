@@ -1,2 +1,10 @@
 <!--pages/order/order.wxml-->
-<text>pages/order/order.wxml</text>
+
+<view class='container'>
+  <view class='section city-view'>
+    <label class='city'>洛阳市</label>
+    <view class='city-line'></view>
+    <label class='hospital'>洛阳市眼科医院</label>
+  </view>
+
+</view>
