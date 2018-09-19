@@ -1,2 +1,30 @@
 <!--pages/addMember/addMember.wxml-->
-<text>pages/addMember/addMember.wxml</text>
+
+
+<view class='container'>
+
+  <view class='section'>
+    <image class='name' src='../../img/name.png'></image>
+    <input class='name-input'></input>
+  </view>
+  <view class='bottom-line'></view>
+
+  <view class='section'>
+    <image class='idCard' src='../../img/idNumber.png'></image>
+    <input class='idCard-input'></input>
+  </view>
+  <view class='bottom-line'></view>
+
+  <view class='section'>
+    <image class='teleno' src='../../img/teleno.png'></image>
+    <input class='teleno-input'></input>
+  </view>
+  <view class='bottom-line'></view>
+
+  <view class='section'>
+    <image class='code' src='../../img/code.png'></image>
+    <input class='code-input'></input>
+  </view>
+  <view class='bottom-line'></view>
+
+</view>
