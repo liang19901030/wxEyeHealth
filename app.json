@@ -3,6 +3,7 @@
     "pages/home/home",
     "pages/myOrder/myOrder",
     "pages/myFamily/myFamily",
+    "pages/addMember/addMember",
     "pages/report/report",
     "pages/basicInfo/basicInfo",
     "pages/editInfo/editInfo",
