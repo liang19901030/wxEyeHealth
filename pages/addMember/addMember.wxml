@@ -4,26 +4,26 @@
 <view class='container'>
 
   <view class='section'>
-    <image class='name' src='../../img/name.png'></image>
-    <input class='name-input'></input>
+    <image class='img name' src='../../img/name.png'></image>
+    <input class='value-input' placeholder='您的姓名' placeholder-class='phcolor' auto-focus></input>
   </view>
   <view class='bottom-line'></view>
 
   <view class='section'>
-    <image class='idCard' src='../../img/idNumber.png'></image>
-    <input class='idCard-input'></input>
+    <image class='img idCard' src='../../img/idNumber.png'></image>
+    <input class='value-input' placeholder='您的身份证号' placeholder-class='phcolor' auto-focus></input>
   </view>
   <view class='bottom-line'></view>
 
   <view class='section'>
-    <image class='teleno' src='../../img/teleno.png'></image>
-    <input class='teleno-input'></input>
+    <image class='img teleno' src='../../img/teleno.png'></image>
+    <input class='value-input' placeholder='您的手机号' placeholder-class='phcolor' auto-focus></input>
   </view>
   <view class='bottom-line'></view>
 
   <view class='section'>
-    <image class='code' src='../../img/code.png'></image>
-    <input class='code-input'></input>
+    <image class='img code' src='../../img/code.png'></image>
+    <input class='value-input' placeholder='输入验证码' placeholder-class='phcolor' auto-focus></input>
   </view>
   <view class='bottom-line'></view>
 
