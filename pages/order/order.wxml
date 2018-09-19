@@ -9,8 +9,8 @@
 
   <view class='section member-view'>
     <label class='select-member'>选择家庭成员</label>
-    <label class='member'>liang</label>
     <image class='select-member-img' src='../../img/left_arrow.png'></image>
+    <label class='member'>liang</label>
   </view>
 
 </view>

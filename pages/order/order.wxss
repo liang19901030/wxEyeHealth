@@ -58,12 +58,13 @@ page {
 .member {
   color: #808080;
   font-size: 30rpx;
-  
+  float: right;
+  margin-right: 20rpx;
 }
 
 .select-member-img {
   width: 14rpx;
   height: 26rpx;
   float: right;
-  right: 26rpx;
+  margin-right: 26rpx;
 }
