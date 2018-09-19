@@ -54,7 +54,7 @@ page {
 }
 
 .teleno-view {
-  display: block;
+  display: flex;
 }
 
 .teleno {
@@ -68,6 +68,10 @@ page {
 }
 
 .request-code {
+  width: 280rpx;
+  height: 32rpx;
+  font-size: 34rpx;
+  text-align: right;
+  margin-top: 40rpx;
   color: #0487EF;
-  float: right;
 }
