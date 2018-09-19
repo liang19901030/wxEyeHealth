@@ -51,7 +51,7 @@
     </view>
 
     <view wx:if="{{!isOrder}}">
-      <button class='member-btn add-member-btn'>添加家庭成员</button>
+      <button class='member-btn add-member-btn' bindtap='addMemberTap'>添加家庭成员</button>
     </view>
   </view>
 </view>
