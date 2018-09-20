@@ -71,7 +71,6 @@ page {
 }
 
 .order-date-view {
-  display: block;
   width: 100%;
   height: 180rpx;
   margin-top: 20rpx;
@@ -86,14 +85,15 @@ page {
   justify-content: center;
 }
 
-.order-date {
+.date-view {
   display: flex;
-  width: 100%;
+  width: calc(100% - 40rpx);
   height: 104rpx;
+  margin-left: 20rpx;
+  background-color: red;
 }
 
-.date-view {
-  display: block;
+.order-date {
   width: 100rpx;
   height: 104rpx;
 }
