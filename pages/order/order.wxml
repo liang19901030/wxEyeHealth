@@ -16,7 +16,7 @@
   <view class='section order-date-view'>
     <view class='today'>{{today}}</view>
     <view class='date-view'>
-      <view class='order-date' wx:for="{{orderDate}}" wx:for-item='order' style='display:flex'>
+      <view class='order-date' wx:for="{{orderDate}}" wx:for-item='order'>
         <view class='week'>{{order.week}}</view>
         <view class='date'>{{order.date}}</view>
       </view>
