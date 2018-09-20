@@ -109,3 +109,11 @@ page {
   font-size: 36rpx;
   text-align: center;
 }
+
+.treatment-doctor {
+  color: #888888;
+  background-color: #f4f4f4;
+  font-size: 30rpx;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+}
