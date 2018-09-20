@@ -13,4 +13,14 @@
     <image class='select-member-img' src='../../img/left_arrow.png'></image>
   </view>
 
+  <view class='section order-date-view'>
+    <view class='today'>{{today}}</view>
+    <view class='order-date' wx:for="{{orderDate}}" wx:for-item='order'>
+      <view class='date-view'>
+        <view class='week'>{{order.week}}</view>
+        <view class='date'>{{order.date}}</view>
+      </view>
+    </view>
+  </view>
+
 </view>

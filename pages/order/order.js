@@ -5,6 +5,37 @@ Page({
    * 页面的初始数据
    */
   data: {
+    today:"今天是09月20日 星期四",
+    orderDate:[
+      {
+        week:'二',
+        date:'10'
+      },
+      {
+        week: '三',
+        date: '11'
+      },
+      {
+        week: '四',
+        date: '12'
+      },
+      {
+        week: '五',
+        date: '13'
+      },
+      {
+        week: '六',
+        date: '14'
+      },
+      {
+        week: '日',
+        date: '15'
+      },
+      {
+        week: '一',
+        date: '16'
+      },
+    ]
   
   },
 
