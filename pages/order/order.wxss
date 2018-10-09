@@ -132,14 +132,47 @@ page {
   display: flex;
 }
 
-.basic-info {
-  margin-left: 20rpx;
-  width: 100%;
-}
-
 .cover {
   margin-top: 30rpx;
   margin-left: 30rpx;
   width: 120rpx;
   height: 120rpx;
+}
+
+.basic-info {
+  margin-left: 20rpx;
+  width: 100%;
+}
+
+.name {
+  margin-top: 28rpx;
+}
+
+.name-lab {
+  font-size: 34rpx;
+  color: #000000;
+}
+
+.title-lab {
+  margin-left: 30rpx;
+  font-size: 28rpx;
+  color: #4D4D4D;
+}
+
+.status-lab {
+  font-size: 30rpx;
+  color: #0487EF;
+  margin-right: 20rpx;
+  float: right;
+}
+
+.major {
+  font-size: 26rpx;
+  color: #1A1A1A;
+}
+
+.line {
+  height: 1rpx;
+  margin-bottom: 0rpx;
+  background-color: #EEEEEE;
 }

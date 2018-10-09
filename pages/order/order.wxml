@@ -34,18 +34,18 @@
           <view class='basic-info'>
 
             <view class='name'>
-              <label>{{doctor.name}}</label>
-              <label>{{doctor.title}}</label>
-              <label>{{doctor.orderStatus}}</label>
+              <label class='name-lab'>{{doctor.name}}</label>
+              <label class='title-lab'>{{doctor.title}}</label>
+              <label class='status-lab'>{{doctor.orderStatus}}</label>
             </view>
 
             <view class='major'>
               <label>{{doctor.major}}</label>
             </view>
 
-            <view class='line'></view>
-
           </view>
+
+          <view class='line'></view>
 
         </view>
       </view>
