@@ -118,6 +118,10 @@ page {
   margin-left: 20rpx;
 }
 
+.doctor-container {
+  margin-top: 10rpx;
+}
+
 .doctor-list-scroll {
   height: 100%;
 }
