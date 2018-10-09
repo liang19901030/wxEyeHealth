@@ -69,3 +69,37 @@ page {
   color: #4D4D4D;
   margin-left: 20rpx;
 }
+
+.order {
+  display: flex;
+  margin-top:20rpx;
+  height: 88rpx;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabs-lab {
+  font-size: 15px;
+  text-align: center;
+}
+
+.chosen {
+  color: #0487EF;
+}
+
+.unChosen {
+  color: #808080;
+}
+
+.chosen-line {
+  background-color: #0487EF;
+  width: 20rpx;
+  height: 4rpx;
+  margin-top: 10rpx;
+}

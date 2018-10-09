@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    current_tab: 0,
     name:'张仲景',
     title:'主任医生',
     hospital:'洛阳市第一眼科医院 (眼科)',

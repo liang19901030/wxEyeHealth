@@ -18,4 +18,16 @@
       </view>
     </view>
   </view>
+
+  <view class='section order'>
+    <view class='tabs' data-current='0' bindtap='tabChange'>
+      <label class="tabs-lab {{current_tab == 0 ? 'chosen' : 'unChosen'}}" data-current='0'>预约挂号</label>
+      <label class="{{current_tab == 0 ? 'chosen-line' : ''}}"></label>
+    </view>
+    <view class='tabs' data-current='1' bindtap='tabChange'>
+      <label class="tabs-lab {{current_tab == 1 ? 'chosen' : 'unChosen'}}" data-current='1'>医生简介</label>
+      <label class="{{current_tab == 1 ? 'chosen-line' : ''}}"></label>
+    </view>
+  </view>
+  
 </view>
