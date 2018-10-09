@@ -120,7 +120,6 @@ page {
 
 .doctor-list-scroll {
   height: 100%;
-  position: fixed;
 }
 
 .doctor-list {

@@ -25,7 +25,7 @@
 
   <view class='section treatment-doctor'>坐诊医生</view>
 
-  <view class='section doctor-container' wx:if="{{doctorList.length > 0}}">
+  <view class='section doctor-container' wx:if="{{doctorList.length > 0}}" style="height:{{scroll_height}}px">
     <scroll-view class='doctor-list-scroll' scroll-y>
       <view class='doctor-list' wx:for="{{doctorList}}" wx:for-item="doctor">
         <view class='doctor-info'>

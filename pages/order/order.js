@@ -1,10 +1,14 @@
 // pages/order/order.js
+
+const app = getApp()
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    scroll_height: 0,
     today:"今天是09月20日 星期四",
     orderDate:[
       {
@@ -88,7 +92,11 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-  
+    var windowHeight = app.globalData.windowHeight
+    var windowWidth = app.globalData.windowWidth
+    this.setData({
+      scroll_height: windowHeight - windowWidth / 750 * 480,
+    })
   },
 
   /**
