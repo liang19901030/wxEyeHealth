@@ -6,7 +6,7 @@ label {
 }
 
  
- button::after {
+button::after {
   border-radius: 0rpx;
   border: none;
 }

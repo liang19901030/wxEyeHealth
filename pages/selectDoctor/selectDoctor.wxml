@@ -29,5 +29,7 @@
       <label class="{{current_tab == 1 ? 'chosen-line' : ''}}"></label>
     </view>
   </view>
+
+  <button class='order-button'>预约挂号</button>
   
 </view>
