@@ -27,7 +27,7 @@
 
   <view class='section doctor-container' wx:if="{{doctorList.length > 0}}" style="height:{{scroll_height}}px">
     <scroll-view class='doctor-list-scroll' scroll-y>
-      <view class='doctor-list' wx:for="{{doctorList}}" wx:for-item="doctor">
+      <view class='doctor-list' wx:for="{{doctorList}}" wx:for-item="doctor" bindtap='doctotTap'>
         <view class='doctor-info'>
           <image class='cover' src='../../img/avater.png'></image>
 

@@ -81,6 +81,12 @@ Page({
   
   },
 
+  doctotTap:function () {
+    wx.navigateTo({
+      url: '../selectDoctor/selectDoctor',
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

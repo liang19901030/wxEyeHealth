@@ -4,6 +4,7 @@
     "pages/order/order",
     "pages/myOrder/myOrder",
     "pages/myFamily/myFamily",
+    "pages/selectDoctor/selectDoctor",
     "pages/addMember/addMember",
     "pages/report/report",
     "pages/basicInfo/basicInfo",
