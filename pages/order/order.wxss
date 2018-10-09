@@ -127,3 +127,19 @@ page {
   height: 183rpx;
   background-color: #FFFFFF;
 }
+
+.doctor-info {
+  display: flex;
+}
+
+.basic-info {
+  margin-left: 20rpx;
+  width: 100%;
+}
+
+.cover {
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  width: 120rpx;
+  height: 120rpx;
+}
