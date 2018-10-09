@@ -25,4 +25,29 @@
 
   <view class='section treatment-doctor'>坐诊医生</view>
 
+  <view class='section doctor-container' wx:if="{{doctorList.length > 0}}">
+    <scroll-view class='doctor-list-scroll' scroll-y>
+      <view class='doctor-list' wx:for="{{doctorList}}" wx:for-item="doctor">
+        <view class='doctor-info'>
+          <image class='cover' src='../../img/avatar.png'></image>
+
+          <view class='basic-info'>
+            <view class='name'>
+              <label>{{doctor.name}}</label>
+              <label>{{doctor.title}}</label>
+              <label>{{doctor.orderStatus}}</label>
+            </view>
+          </view>
+
+          <view class='major'>
+            <label>{{doctor.major}}</label>
+          </view>
+
+          <view class='line'></view>
+
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
 </view>

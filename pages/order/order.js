@@ -35,6 +35,44 @@ Page({
         week: '一',
         date: '16'
       },
+    ],
+
+    doctorList:[
+      {
+        avatar:'',
+        name:'孙思邈',
+        title:'主任医生',
+        major:'处理眼科各类常见病、多发病，尤其擅长各类斜视的非手术和手术矫正',
+        orderStatus:'有号',
+      },
+      {
+        avatar: '',
+        name: '孙思邈',
+        title: '主任医生',
+        major: '处理眼科各类常见病、多发病，尤其擅长各类斜视的非手术和手术矫正',
+        orderStatus: '有号',
+      },
+      {
+        avatar: '',
+        name: '孙思邈',
+        title: '主任医生',
+        major: '处理眼科各类常见病、多发病，尤其擅长各类斜视的非手术和手术矫正',
+        orderStatus: '有号',
+      },
+      {
+        avatar: '',
+        name: '孙思邈',
+        title: '主任医生',
+        major: '处理眼科各类常见病、多发病，尤其擅长各类斜视的非手术和手术矫正',
+        orderStatus: '有号',
+      },
+      {
+        avatar: '',
+        name: '孙思邈',
+        title: '主任医生',
+        major: '处理眼科各类常见病、多发病，尤其擅长各类斜视的非手术和手术矫正',
+        orderStatus: '有号',
+      },
     ]
   
   },
