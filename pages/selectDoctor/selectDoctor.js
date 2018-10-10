@@ -67,6 +67,24 @@ Page({
     ],
   },
 
+  tabChange: function (e) {
+    var that = this
+    if (that.data.current_tab === e.target.dataset.current) {
+      return false
+    } else {
+      that.setData({
+        current_tab: e.target.dataset.current
+      })
+    }
+  },
+
+  swiperBindChange: function (e) {
+    var that = this
+    that.setData({
+      current_tab: e.detail.current
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
