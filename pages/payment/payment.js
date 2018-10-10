@@ -5,7 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    name: '张仲景',
+    title: '主任医生',
+    hospital: '洛阳市第一眼科医院 (眼科)',
+    cost: '挂号费用:',
+    costValue: '30',
+    costUnit: '元',
   },
 
   /**

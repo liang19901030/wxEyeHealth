@@ -1,2 +1,20 @@
 <!--pages/payment/payment.wxml-->
-<text>pages/payment/payment.wxml</text>
+<view class='container'>
+  <view class='section doctor-info'>
+    <image class='cover' src='../../img/avater.png'></image>
+    <view class='basic-info'>
+      <view class='name'>
+        <label class='name-lab'>{{name}}</label>
+        <label class='title-lab'>{{title}}</label>
+      </view>
+      <view class='hospital'>
+        <label class='hospital-lab'>{{hospital}}</label>
+      </view>
+      <view class='cost'>
+        <label class='cost-lab'>{{cost}}</label>
+        <label class='cost-value-lab'>{{costValue}}</label>
+        <label class='cost-unit-lab'>{{costUnit}}</label>
+      </view>
+    </view>
+  </view>
+</view>

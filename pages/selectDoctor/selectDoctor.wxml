@@ -77,6 +77,6 @@
     </swiper-item>
   </swiper>
 
-  <button class='order-button'>预约挂号</button>
+  <button class='order-button' bindtap='orderBtnTap'>预约挂号</button>
 
 </view>
