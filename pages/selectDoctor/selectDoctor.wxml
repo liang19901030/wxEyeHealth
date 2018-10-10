@@ -49,6 +49,17 @@
 
         <view class='more-line'>-------- MORE --------</view>
 
+        <view class='more-date-list'>
+          <view class='selected-date-view more-date-view' wx:for="{{moreDateList}}" wx:for-item="date">
+            <view class='selected-date'>
+              <view class='date-view'>{{date.date}}</view>
+              <view class='time-view'>{{date.time}}</view>
+            </view>
+            <view class='remain-view'>
+              剩余号数: {{date.remainNum}}
+            </view>
+          </view>
+        </view>
 
       </scroll-view>
     </swiper-item>

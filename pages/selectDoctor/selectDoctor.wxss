@@ -162,6 +162,14 @@ button::after {
   text-align: center;
 }
 
+.more-date-list {
+  display: flex;
+}
+
+.more-date-view {
+  margin-top: 20rpx;
+}
+
 .order-button {
   position: fixed;
   bottom: 0px;
