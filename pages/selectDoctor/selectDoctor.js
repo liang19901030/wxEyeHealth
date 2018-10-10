@@ -17,6 +17,9 @@ Page({
     costValue:'30',
     costUnit:'元',
 
+    major:'处理眼科各类常见病、多发病，尤其擅长各类斜视的非手术和手术矫正、儿童屈光不正的治疗、弱视视功能康复以及甲状腺相关眼病、眼眶肿瘤、眼眶爆裂性骨折等眼眶疾病的诊治。',
+    introduce:'张仲景，医学博士、主任医师、教授、博士研究生导师，南京医科大学第一附属医院眼科副主任，现任中华医学会眼科学分会斜视与小儿眼科学组副组长、中国医师协会眼科医师分会斜视与儿童眼病专业委员会副主任委员、江苏省医学会眼科学分会副主任委员、江苏省医学会眼科学分会斜视与儿童眼病学组组长。专业方向：斜视与小儿眼科。近年来作为项目负责人主持国自然、江苏省自然基金及其他课题多项，以第一作者（通讯作者）在Ophthalmology, British Journal of Ophthalmology, Graefes Arch Clin Exp Ophthalmol, Scientific Reports, Optometry and vision science, Ophthalmic & Physiological Optics等国内外杂志发表论文多篇，主编（译）专著多部。现为江苏省省级临床重点专科学科带头人之一。',
+
     selectedDateList:[
       {
         date:'2018-07-11',

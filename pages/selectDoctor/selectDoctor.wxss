@@ -169,6 +169,43 @@ button::after {
   margin-bottom: 20rpx;
 }
 
+.doctor-info-scroll {
+  height: 100%;
+  margin-top: 5rpx;
+  background-color: #FFFFFF;
+}
+
+.doctor-info-view {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.info-key {
+  color: #808080;
+  font-size: 34rpx;
+}
+
+.info-value {
+  color: #353535;
+  font-size: 30rpx;
+}
+
+.major {
+  margin-top: 42rpx;
+}
+
+.major-value {
+  margin-top: 20rpx;
+}
+
+.introduce {
+  margin-top: 42rpx;
+}
+
+.introduce-value {
+  margin-top: 25rpx;
+}
+
 .order-button {
   position: fixed;
   bottom: 0px;

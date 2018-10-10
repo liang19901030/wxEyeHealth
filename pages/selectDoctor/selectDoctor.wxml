@@ -63,8 +63,20 @@
 
       </scroll-view>
     </swiper-item>
+
+    <swiper-item>
+      <!-- 医生简介 -->
+      <scroll-view class='doctor-info-scroll'>
+        <view class='doctor-info-view'>
+          <view class='info-key major'>擅长:</view>
+          <view class='info-value major-value'>{{major}}</view>
+          <view class='info-key introduce'>简介:</view>
+          <view class='info-value introduce-value'>{{introduce}}</view>
+        </view>
+      </scroll-view>
+    </swiper-item>
   </swiper>
 
   <button class='order-button'>预约挂号</button>
-  
+
 </view>
