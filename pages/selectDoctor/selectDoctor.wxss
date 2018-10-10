@@ -86,12 +86,12 @@ button::after {
   flex-direction: column;
   width: 50%;
   align-items: center;
-  justify-content: center;
 }
 
 .tabs-lab {
   font-size: 15px;
   text-align: center;
+  margin-top: 20rpx;
 }
 
 .chosen {
