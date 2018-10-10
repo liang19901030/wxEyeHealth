@@ -34,6 +34,7 @@
     <swiper-item>
       <!-- 预约挂号 -->
       <scroll-view class='order-date-scroll' scroll-y>
+
         <view class='selected-date-list'>
           <view class='selected-date-view' wx:for="{{selectedDateList}}" wx:for-item="date">
             <view class='selected-date'>
@@ -45,6 +46,10 @@
             </view>
           </view>
         </view>
+
+        <view class='more-line'>-------- MORE --------</view>
+
+
       </scroll-view>
     </swiper-item>
   </swiper>
