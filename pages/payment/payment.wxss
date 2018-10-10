@@ -69,3 +69,12 @@ page {
   color: #4D4D4D;
   margin-left: 20rpx;
 }
+
+.treatment-date {
+  height: 70rpx;
+  line-height: 70rpx;
+  color: #FFFFFF;
+  background-color: #E64340;
+  font-size: 30rpx;
+  text-align: center;
+}
