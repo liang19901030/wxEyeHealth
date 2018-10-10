@@ -122,6 +122,7 @@ button::after {
 .selected-date-view {
   margin-left: 20rpx;
   width: calc((100% - 60rpx) / 2);
+  float: left;
   height: 98rpx;
   border-width: 1rpx;
   border-color: #DBDBDB;
@@ -162,12 +163,9 @@ button::after {
   text-align: center;
 }
 
-.more-date-list {
-  display: flex;
-}
-
 .more-date-view {
   margin-top: 20rpx;
+  margin-bottom: 20rpx;
 }
 
 .order-button {
