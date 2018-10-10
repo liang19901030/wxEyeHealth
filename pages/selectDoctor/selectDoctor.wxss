@@ -110,6 +110,7 @@ button::after {
 }
 
 .order-date-scroll {
+  height: 100%;
   margin-top: 5rpx;
   background-color: #FFFFFF;
 }
