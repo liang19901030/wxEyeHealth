@@ -30,6 +30,25 @@
     </view>
   </view>
 
+  <swiper current='{{current_tab}}' style='height:{{swiper_height}}px' bindchange='swiperBindChange'>
+    <swiper-item>
+      <!-- 预约挂号 -->
+      <scroll-view class='order-date-scroll' scroll-y>
+        <view class='selected-date-list'>
+          <view class='selected-date-view' wx:for="{{selectedDateList}}" wx:for-item="date">
+            <view class='selected-date'>
+              <view class='date-view'>{{date.date}}</view>
+              <view class='time-view'>{{date.time}}</view>
+            </view>
+            <view class='remain-view'>
+              剩余号数: {{date.remainNum}}
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </swiper-item>
+  </swiper>
+
   <button class='order-button'>预约挂号</button>
   
 </view>

@@ -1,4 +1,7 @@
 // pages/selectDoctor/selectDoctor.js
+
+const app = getApp()
+
 Page({
 
   /**
@@ -6,12 +9,59 @@ Page({
    */
   data: {
     current_tab: 0,
+    swiper_height: 0,
     name:'张仲景',
     title:'主任医生',
     hospital:'洛阳市第一眼科医院 (眼科)',
     cost:'挂号费用:',
     costValue:'30',
     costUnit:'元',
+
+    selectedDateList:[
+      {
+        date:'2018-07-11',
+        time:'上午',
+        remainNum:'6',
+      },
+      {
+        date: '2018-07-11',
+        time: '下午',
+        remainNum: '6',
+      }
+    ],
+
+    moreDateList:[
+      {
+        date: '2018-07-11',
+        time: '上午',
+        remainNum: '6',
+      },
+      {
+        date: '2018-07-11',
+        time: '下午',
+        remainNum: '6',
+      },
+      {
+        date: '2018-07-11',
+        time: '上午',
+        remainNum: '6',
+      },
+      {
+        date: '2018-07-11',
+        time: '下午',
+        remainNum: '6',
+      },
+      {
+        date: '2018-07-11',
+        time: '上午',
+        remainNum: '6',
+      },
+      {
+        date: '2018-07-11',
+        time: '下午',
+        remainNum: '6',
+      }
+    ],
   },
 
   /**
@@ -25,7 +75,11 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-  
+    var windowHeight = app.globalData.windowHeight
+    var windowWidth = app.globalData.windowWidth
+    this.setData({
+      swiper_height: windowHeight - windowWidth / 750 * (330 + 98),
+    }) 
   },
 
   /**
