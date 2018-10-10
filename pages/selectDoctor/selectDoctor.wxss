@@ -110,11 +110,13 @@ button::after {
 }
 
 .order-date-scroll {
+  margin-top: 5rpx;
   background-color: #FFFFFF;
 }
 
 .selected-date-list {
   display: flex;
+  margin-top: 40rpx;
 }
 
 .selected-date-view {
@@ -123,7 +125,33 @@ button::after {
   height: 98rpx;
   border-width: 1rpx;
   border-color: #DBDBDB;
+  border-style: solid;
   border-radius: 10rpx;
+}
+
+.selected-date {
+  display: flex;
+}
+
+.selected-date {
+  color: #1A1A1A;
+  font-size: 30rpx;
+  justify-content: center;
+  margin-top: 15rpx;
+}
+
+.date-view {
+  color: #1A1A1A;
+}
+
+.time-view {
+  margin-left: 20rpx;
+}
+
+.remain-view {
+  color: #808080;
+  font-size: 24rpx;
+  text-align: center;
 }
 
 .order-button {
