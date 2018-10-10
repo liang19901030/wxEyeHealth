@@ -109,6 +109,23 @@ button::after {
   margin-top: 10rpx;
 }
 
+.order-date-scroll {
+  background-color: #FFFFFF;
+}
+
+.selected-date-list {
+  display: flex;
+}
+
+.selected-date-view {
+  margin-left: 20rpx;
+  width: calc((100% - 60rpx) / 2);
+  height: 98rpx;
+  border-width: 1rpx;
+  border-color: #DBDBDB;
+  border-radius: 10rpx;
+}
+
 .order-button {
   position: fixed;
   bottom: 0px;
